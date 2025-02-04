@@ -1,6 +1,10 @@
 import Dexie, { EntityTable } from "dexie";
 
-const initWebsites = [{ name: "GITHUB", link: "https://www.github.com" }];
+const initWebsites = [
+  { id: 1, name: "Extensi home page", link: "https://extensi.io" },
+  { id: 2, name: "Extensi on Atlassian's Marketplace", link: "https://marketplace.atlassian.com/vendors/1213262/extensi" },
+  { id: 3, name: "Agile tools and filters for Jira", link: "https://marketplace.atlassian.com/apps/1215334/agile-tools-filters-for-jira-software" },
+];
 
 interface Website {
   id: number;
